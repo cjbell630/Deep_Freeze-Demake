@@ -1,0 +1,3 @@
+D:\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\GBA_Test_1.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\GBA_Test_1.dir/objects.a @CMakeFiles\GBA_Test_1.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\GBA_Test_1.dir/objects.a -Wl,--no-whole-archive  -o GBA_Test_1.exe -Wl,--out-implib,libGBA_Test_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GBA_Test_1.dir\linklibs.rsp
