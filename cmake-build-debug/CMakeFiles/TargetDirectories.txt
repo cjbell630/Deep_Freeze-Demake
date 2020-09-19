@@ -1,3 +1,0 @@
-D:/cb106/Documents/GitHub/GBA-Test-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/cb106/Documents/GitHub/GBA-Test-1/cmake-build-debug/CMakeFiles/GBA_Test_1.dir
-D:/cb106/Documents/GitHub/GBA-Test-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
