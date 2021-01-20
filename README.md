@@ -1,4 +1,4 @@
-# Deep-Freeze-Demake
+# Deep Freeze: Demake
 
 Work in progress
 
