@@ -1,5 +1,5 @@
 //
-// https://github.com/visualboyadvance-m/visualboyadvance-m/issues/305#issuecomment-418218031
+// https://forum.gbadev.org/viewtopic.php?t=18125&highlight=print
 //
 
 #ifndef GBA_AGAIN_DEBUG_H
