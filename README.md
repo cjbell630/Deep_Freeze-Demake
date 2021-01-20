@@ -11,3 +11,10 @@ The original game can be found [here][1].
 [1]: https://www.miniclip.com/games/deep-freeze/en/
 
 Any files not containing any code written by me should have a file called `.SOURCE.md` in the same directory as them. That will have the source for the corresponding file and an explanation of which file(s) this applies to.
+
+
+GitHub todo: (things to do that really only affect the GitHub page)
+* Copyright info in README
+* Download instructions for people who don't know GitHub
+* Maybe setup website
+* Setup wiki that also functions as a Deep Freeze: Flash wiki
