@@ -1,3 +1,7 @@
 *.h linguist-language=C
+
 *.gba linguist-generated
 *.elf linguist-generated
+
+include/tonc/* linguist-vendored
+include/DWedit/* linguist-vendored
