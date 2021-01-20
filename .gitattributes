@@ -1,1 +1,3 @@
 *.h linguist-language=C
+*.gba linguist-generated
+*.elf linguist-generated
