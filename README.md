@@ -10,4 +10,4 @@ The original game can be found [here][1].
 
 [1]: https://www.miniclip.com/games/deep-freeze/en/
 
-Any files containing no code written by me should have a file called `.SOURCE.md` in the same directory as them. That will have the source for the corresponding file and an explanation of which file(s) this applies to.
+Any files not containing any code written by me should have a file called `.SOURCE.md` in the same directory as them. That will have the source for the corresponding file and an explanation of which file(s) this applies to.
