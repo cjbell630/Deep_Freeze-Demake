@@ -1,0 +1,47 @@
+gba screen is 30 tiles wide, 20 tiles tall
+
+
+Assuming I add a header and footer of 16px each (for score etc), to balance out the proportions,
+Each pink tile should be ~11 pixels tall and ~30 pixels wide
+
+Regardless, Santa should be around 2 horizontal pink things tall (~22)
+and in total, including his arms and gun, he should be 
+If I do this, I will need to be very careful about removing the top ~8 pixels of santa's hitbox (since I can't make 24x32 sprites)
+
+In the original, Santa's gun does not have collision.
+An easy fix for this would be to run two swuares, one for the lower ~half of his body (up to his arm), and then a slightly thinner one for the head.
+
+OG game screen is 16 pink things tall. 
+Each pink thing is slightly less than 3 times as wide as it is tall.
+If initially displaying things offscreen is okay, then
+hold up I messed up
+
+
+pTW = tile width of pink thing
+sPW = screen width in pink things
+
+30 ~= sPW*pTW  ->  sPW ~= 30/pTW ~= 7-8
+7 <= 30/pTW <= 8
+
+One solution: pink things are 4 tiles wide, and there are 7.5 of them onscreen
+(one extra tile would be on either side of the screen, not too hard to do)
+
+pTH = tile height of pink thing
+sPH = screen height in pink things
+
+20 ~= sPH*pTW  ->  sPH ~= 20/pTH ~= 15-16
+15 <= 20/pTH <= 16
+
+One solution: add a 2 tile buffer to the top and bottom of the screen (the 20 then changes to 16)
+then make each pink thing 1 tile tall, giving a 16 tile tall game screen
+
+Santa is 2 tiles tall = 16px tall
+
+Also backgrounds should probably be 208x160, unless I put them behind the menu buffers, in which case it would be 240x160 (fullscreen)
+
+...there's a separate pallette bank for the background...
+ookay
+so
+um
+requantize the background into 240 colors instead of 256, save the last 16 for platforms? Ig? hmm
+I will think
