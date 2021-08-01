@@ -1,5 +1,9 @@
 # Deep Freeze: Demake
 
+### Update August 2021: I was originally planning to use this project to learn GBA development, but I ended up having a cooler idea and doing that instead. I might come back to this sometime, but don't expect any updates anytime soon.
+
+
+
 ### Note: This is a work in progress. I am using this project to learn about GBA development, so it will likely be very slow.
 
 You can find the current demo in either releases (working demo) or `/out/Deep_Freeze_Demake.gba` (possibly non-working demo).
